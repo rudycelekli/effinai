@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "effinai": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "effinai@latest"],
+      "note": "Effin.AI MCP server — 586 tools for agent orchestration, memory, swarms, skills, security, domains, codebase intelligence, and meta-orchestration"
+    }
+  }
+}

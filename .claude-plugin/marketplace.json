@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "effinai",
+  "description": "Effin.AI — The most powerful AI agent orchestration plugin for Claude Code. 586 MCP tools, 223 agents, 98 skills, self-learning swarms, anti-drift consensus, autonomous PRD-to-code, meta-orchestration, codebase intelligence, domain verticals, 500+ app integrations. One plugin brings it all.",
+  "owner": {
+    "name": "Effin.AI",
+    "email": "effinai@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "effinai",
+      "description": "The ultimate AI agent orchestration plugin — 586 MCP tools, 223 agent types, 98 skills, self-learning swarms with anti-drift, autonomous PRD-to-code, meta-orchestration, codebase intelligence, stealth scraping, 500+ app integrations, domain verticals (finance, healthcare, legal, IoT, quantum, trading), 8 model providers. One install, everything included.",
+      "author": {
+        "name": "Effin.AI",
+        "url": "https://github.com/rudycelekli"
+      },
+      "version": "1.0.0",
+      "category": "development",
+      "source": "./plugins/effinai",
+      "homepage": "https://github.com/rudycelekli/effinai"
+    }
+  ]
+}
