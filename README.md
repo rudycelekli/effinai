@@ -4,20 +4,70 @@
 
 586 MCP tools. 223 agent types. 98 skills. Self-learning swarms. Anti-drift consensus. Autonomous PRD-to-code. Meta-orchestration. Codebase intelligence. Domain verticals. 500+ app integrations. 8 model providers.
 
-## Install
+## Install (3 Steps)
 
+### Step 1: Install the Plugin
 ```bash
-# Step 1: Add the marketplace (one time)
 /plugin marketplace add rudycelekli/effinai
-
-# Step 2: Install the plugin
 /plugin install effinai@effinai
-
-# Step 3: Reload
 /reload-plugins
 ```
 
-That's it. You now have access to everything.
+### Step 2: Register the MCP Server (586 tools)
+```bash
+claude mcp add effin -- npx -y effinai@latest
+```
+Then restart Claude Code. All 586 MCP tools become available.
+
+### Step 3: Initialize Your Project
+```bash
+/effinai-init
+```
+Or manually:
+```bash
+effin init       # Creates .effinai/ directory
+effin doctor     # Verify everything works
+effin status     # See the dashboard
+```
+
+**That's it.** You now have 586 MCP tools, 227 agents, 110 skills, and everything else.
+
+## How to Use
+
+### Just Type Naturally
+The skills auto-trigger based on what you say. No commands to memorize:
+- "Build a login system" → auto-orchestrates coder + tester + reviewer agents
+- "Review this code for security" → triggers security scan + code review
+- "What if we migrate to microservices?" → runs multi-agent debate simulation
+- "Predict AI adoption trends" → runs trend prediction analysis
+
+### Slash Commands
+```bash
+/effinai "build a payment system"   # Auto-orchestrate any task
+/effinai-status                      # System dashboard
+/effinai-doctor                      # Health check
+/effinai-init                        # Setup wizard
+```
+
+### Direct CLI
+```bash
+effin agent spawn --type coder --name my-coder --task "Add auth"
+effin swarm init --topology hierarchical --max-agents 8
+effin memory search --query "authentication patterns"
+effin run --prd tasks.json
+effin simulate --scenario "Should we use GraphQL?"
+effin predict --topic "serverless adoption" --horizon long
+effin multica orchestrate --task "Build entire platform"
+```
+
+### MCP Tools (in Claude Code)
+All 586 tools are available directly. Key ones:
+- `effinai_orchestrate` — describe any task, everything auto-selected
+- `effinai_agent_spawn` — spawn any of 227 agent types
+- `effinai_memory_search` — semantic vector search
+- `effinai_nexus_self_analyze` — Effin.AI explains its own architecture
+- `effinai_security_scan` — OWASP vulnerability scan
+- `effinai_multica_orchestrate` — meta-orchestrate across swarm fleets
 
 ## What You Get
 
