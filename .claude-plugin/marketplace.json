@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "effinai",
-      "description": "The ultimate AI agent orchestration plugin — 586 MCP tools, 223 agent types, 98 skills, self-learning swarms with anti-drift, autonomous PRD-to-code, meta-orchestration, codebase intelligence, stealth scraping, 500+ app integrations, domain verticals (finance, healthcare, legal, IoT, quantum, trading), 8 model providers. One install, everything included.",
+      "description": "The ultimate AI agent orchestration plugin — 586 MCP tools, 227 agents, 110 skills, self-learning swarms with anti-drift, autonomous PRD-to-code, meta-orchestration, codebase intelligence, stealth scraping, 500+ app integrations, domain verticals (finance, healthcare, legal, IoT, quantum, trading), 8 model providers. One install, everything included.",
       "author": {
         "name": "Effin.AI",
         "url": "https://github.com/rudycelekli"

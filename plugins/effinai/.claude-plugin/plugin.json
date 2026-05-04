@@ -1,7 +1,7 @@
 {
   "name": "effinai",
   "version": "1.0.0",
-  "description": "The ultimate AI agent orchestration plugin — 586 MCP tools, 223 agents, 98 skills, self-learning swarms, anti-drift consensus, autonomous PRD-to-code, meta-orchestration, codebase intelligence, domain verticals, 500+ app integrations. One plugin to rule them all.",
+  "description": "The ultimate AI agent orchestration plugin — 586 MCP tools, 227 agents, 110 skills, self-learning swarms, anti-drift consensus, autonomous PRD-to-code, meta-orchestration, codebase intelligence, domain verticals, 500+ app integrations. One plugin to rule them all.",
   "author": {
     "name": "Effin.AI",
     "url": "https://github.com/rudycelekli/effinai-swarm"
